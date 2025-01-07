@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formUpdateTest", "formUpdateTest\formUpdateTest.csproj", "{CAB6E85E-BD5E-4694-AD09-08D65D84D493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "formUpdateTest", "formUpdateTest\formUpdateTest.csproj", "{CAB6E85E-BD5E-4694-AD09-08D65D84D493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Updater", "Updater\Updater.csproj", "{A9496814-E3B7-42EC-A556-F65BA37B50C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CAB6E85E-BD5E-4694-AD09-08D65D84D493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAB6E85E-BD5E-4694-AD09-08D65D84D493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAB6E85E-BD5E-4694-AD09-08D65D84D493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9496814-E3B7-42EC-A556-F65BA37B50C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9496814-E3B7-42EC-A556-F65BA37B50C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9496814-E3B7-42EC-A556-F65BA37B50C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9496814-E3B7-42EC-A556-F65BA37B50C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

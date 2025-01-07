@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             statusStrip1 = new StatusStrip();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
+            timer1 = new System.Windows.Forms.Timer(components);
             statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,6 +49,12 @@
             toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             toolStripStatusLabel1.Size = new Size(118, 17);
             toolStripStatusLabel1.Text = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Click += toolStripStatusLabel1_Click;
+            // 
+            // timer1
+            // 
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
             // 
             // Form1
             // 
@@ -67,5 +75,6 @@
 
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
