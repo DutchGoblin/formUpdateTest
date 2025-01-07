@@ -6,7 +6,7 @@ namespace formUpdateTest
     public partial class Form1 : Form
     {
 
-        public static string CurrentVersion = "1.0.0";
+        public static string CurrentVersion = "1.0.1";
         private string response;
         private List<GitHubRelease> releases;
         private GitHubRelease latestRelease;
